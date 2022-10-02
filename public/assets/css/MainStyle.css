@@ -1,0 +1,24 @@
+.Main-CenterContainer{
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px 15vw 10px 15vw;
+    border: #ffffff;
+    border-radius: 5px;
+
+}
+
+.Top-Readme{
+    justify-items: center;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    font-size: 28px;
+}
+
+.Main-CenterContainer{
+    justify-items: center;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    font-size: 28px;
+}
