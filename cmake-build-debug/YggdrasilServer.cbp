@@ -137,8 +137,35 @@
 		<Unit filename="/home/epicmo/桌面/Yggdrasil/YggdrasilServer/main.cc">
 			<Option target="YggdrasilServer"/>
 		</Unit>
+		<Unit filename="/home/epicmo/桌面/Yggdrasil/YggdrasilServer/mcmodel/Model.h">
+			<Option target="YggdrasilServer"/>
+		</Unit>
 		<Unit filename="/home/epicmo/桌面/Yggdrasil/YggdrasilServer/test/test_main.cc">
 			<Option target="YggdrasilServer_test"/>
+		</Unit>
+		<Unit filename="/home/epicmo/桌面/Yggdrasil/YggdrasilServer/user/Player.h">
+			<Option target="YggdrasilServer"/>
+		</Unit>
+		<Unit filename="/home/epicmo/桌面/Yggdrasil/YggdrasilServer/user/Texture.h">
+			<Option target="YggdrasilServer"/>
+		</Unit>
+		<Unit filename="/home/epicmo/桌面/Yggdrasil/YggdrasilServer/user/Token.h">
+			<Option target="YggdrasilServer"/>
+		</Unit>
+		<Unit filename="/home/epicmo/桌面/Yggdrasil/YggdrasilServer/user/User.h">
+			<Option target="YggdrasilServer"/>
+		</Unit>
+		<Unit filename="/home/epicmo/桌面/Yggdrasil/YggdrasilServer/utility/PlayerUtility.h">
+			<Option target="YggdrasilServer"/>
+		</Unit>
+		<Unit filename="/home/epicmo/桌面/Yggdrasil/YggdrasilServer/utility/SafeUtility.h">
+			<Option target="YggdrasilServer"/>
+		</Unit>
+		<Unit filename="/home/epicmo/桌面/Yggdrasil/YggdrasilServer/utility/UserUtility.h">
+			<Option target="YggdrasilServer"/>
+		</Unit>
+		<Unit filename="/home/epicmo/桌面/Yggdrasil/YggdrasilServer/utility/Utility.h">
+			<Option target="YggdrasilServer"/>
 		</Unit>
 		<Unit filename="/home/epicmo/桌面/Yggdrasil/YggdrasilServer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

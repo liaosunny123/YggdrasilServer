@@ -19,7 +19,7 @@ endif ()
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-add_executable(${PROJECT_NAME} main.cc)
+add_executable(${PROJECT_NAME} main.cc user/Player.h user/User.h utility/UserUtility.h utility/PlayerUtility.h utility/Utility.h mcmodel/Model.h user/Texture.h utility/SafeUtility.h user/Token.h)
 
 # ##############################################################################
 # If you include the drogon source code locally in your project, use this method
