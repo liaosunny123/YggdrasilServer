@@ -134,6 +134,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/epicmo/桌面/Yggdrasil/YggdrasilServer/controllers/authserver.cc">
+			<Option target="YggdrasilServer"/>
+		</Unit>
+		<Unit filename="/home/epicmo/桌面/Yggdrasil/YggdrasilServer/controllers/authserver.h">
+			<Option target="YggdrasilServer"/>
+		</Unit>
 		<Unit filename="/home/epicmo/桌面/Yggdrasil/YggdrasilServer/main.cc">
 			<Option target="YggdrasilServer"/>
 		</Unit>

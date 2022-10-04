@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/YggdrasilServer.dir/controllers/authserver.cc.o"
+  "CMakeFiles/YggdrasilServer.dir/controllers/authserver.cc.o.d"
   "CMakeFiles/YggdrasilServer.dir/main.cc.o"
   "CMakeFiles/YggdrasilServer.dir/main.cc.o.d"
   "YggdrasilServer"

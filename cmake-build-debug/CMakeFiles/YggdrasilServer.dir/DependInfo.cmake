@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/epicmo/桌面/Yggdrasil/YggdrasilServer/controllers/authserver.cc" "CMakeFiles/YggdrasilServer.dir/controllers/authserver.cc.o" "gcc" "CMakeFiles/YggdrasilServer.dir/controllers/authserver.cc.o.d"
   "/home/epicmo/桌面/Yggdrasil/YggdrasilServer/main.cc" "CMakeFiles/YggdrasilServer.dir/main.cc.o" "gcc" "CMakeFiles/YggdrasilServer.dir/main.cc.o.d"
   )
 

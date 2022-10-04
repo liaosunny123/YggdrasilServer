@@ -142,6 +142,30 @@ YggdrasilServer_test/fast:
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/YggdrasilServer_test.dir/build.make test/CMakeFiles/YggdrasilServer_test.dir/build
 .PHONY : YggdrasilServer_test/fast
 
+controllers/authserver.o: controllers/authserver.cc.o
+.PHONY : controllers/authserver.o
+
+# target to build an object file
+controllers/authserver.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YggdrasilServer.dir/build.make CMakeFiles/YggdrasilServer.dir/controllers/authserver.cc.o
+.PHONY : controllers/authserver.cc.o
+
+controllers/authserver.i: controllers/authserver.cc.i
+.PHONY : controllers/authserver.i
+
+# target to preprocess a source file
+controllers/authserver.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YggdrasilServer.dir/build.make CMakeFiles/YggdrasilServer.dir/controllers/authserver.cc.i
+.PHONY : controllers/authserver.cc.i
+
+controllers/authserver.s: controllers/authserver.cc.s
+.PHONY : controllers/authserver.s
+
+# target to generate assembly for a file
+controllers/authserver.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YggdrasilServer.dir/build.make CMakeFiles/YggdrasilServer.dir/controllers/authserver.cc.s
+.PHONY : controllers/authserver.cc.s
+
 main.o: main.cc.o
 .PHONY : main.o
 
@@ -176,6 +200,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... YggdrasilServer"
 	@echo "... YggdrasilServer_test"
+	@echo "... controllers/authserver.o"
+	@echo "... controllers/authserver.i"
+	@echo "... controllers/authserver.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
