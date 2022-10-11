@@ -27,10 +27,10 @@ Tips:This json supports "//" format.
 ## Other System
 You can see drogon's install instruction.  
 # Project Structure
-controllers: Controller for website
-mcmodel: JsonModel for user's post
-models: WebModels
-public: Website's running dir
-user: System basic model
-utility: Common tools for this project
+controllers: Controller for website  
+mcmodel: JsonModel for user's post  
+models: WebModels  
+public: Website's running dir  
+user: System basic model  
+utility: Common tools for this project  
 
