@@ -7,7 +7,7 @@
 #pragma once
 
 #include <drogon/HttpController.h>
-
+#include "../mcmodel/authservermodel.h"
 using namespace drogon;
 
 class authserver : public drogon::HttpController<authserver>
@@ -17,7 +17,7 @@ public:
         METHOD_ADD(authserver::authenticate,"/authenticate",Post);
     METHOD_LIST_END
 
-    void authenticate(const HttpRequestPtr &req , std::function<void (const HttpResponsePtr &)> &&callback
-        );
+    void authenticate(authservermodel::authenticate &&pAuthenticate , std::function<void (const HttpResponsePtr &)> &&callback
+        ) const;
 };
 #endif //YGGDRASILSERVER_AUTHSERVER_H

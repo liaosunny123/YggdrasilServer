@@ -1,7 +1,9 @@
-/snap/clion/206/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/epicmo/桌面/Yggdrasil/YggdrasilServer -B /home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug
+/snap/clion/209/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/209/bin/ninja/linux/ninja -G Ninja -S /home/epicmo/桌面/Project/YggdrasilServer -B /home/epicmo/桌面/Project/YggdrasilServer/cmake-build-debug
 -- jsoncpp verson:1.9.5
 -- Found UUID: /usr/lib/x86_64-linux-gnu/libuuid.so
+-- MySQL Include dir: /usr/include/mariadb
+-- MySQL client libraries: /usr/lib/x86_64-linux-gnu/libmariadbclient.so
 -- use c++17
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug
+-- Build files have been written to: /home/epicmo/桌面/Project/YggdrasilServer/cmake-build-debug

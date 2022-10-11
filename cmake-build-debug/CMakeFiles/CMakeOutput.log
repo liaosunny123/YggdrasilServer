@@ -1,4 +1,4 @@
-The system is: Linux - 5.15.0-48-generic - x86_64
+The system is: Linux - 5.15.0-50-generic - x86_64
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
 Build flags: 
@@ -10,15 +10,12 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/epicmo/桌面/Project/YggdrasilServer/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/a.out"
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/epicmo/桌面/Project/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c0ea4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c0ea4.dir/build.make CMakeFiles/cmTC_c0ea4.dir/build
-gmake[1]: Entering directory '/home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c0ea4.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++   -v -o CMakeFiles/cmTC_c0ea4.dir/CMakeCXXCompilerABI.cpp.o -c /snap/clion/206/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command(s):/snap/clion/209/bin/ninja/linux/ninja cmTC_4c74b && [1/2] Building CXX object CMakeFiles/cmTC_4c74b.dir/CMakeCXXCompilerABI.cpp.o
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -28,8 +25,8 @@ Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.2.0-19ubuntu1'
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.2.0 (Ubuntu 11.2.0-19ubuntu1) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c0ea4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c0ea4.dir/'
- /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/clion/206/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c0ea4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccz5u5bK.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4c74b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4c74b.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/clion/209/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_4c74b.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccLBeufp.s
 GNU C++17 (Ubuntu 11.2.0-19ubuntu1) version 11.2.0 (x86_64-linux-gnu)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -53,15 +50,13 @@ GNU C++17 (Ubuntu 11.2.0-19ubuntu1) version 11.2.0 (x86_64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 619370d92bf6efc3023abfa7394da0c1
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c0ea4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c0ea4.dir/'
- as -v --64 -o CMakeFiles/cmTC_c0ea4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccz5u5bK.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4c74b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4c74b.dir/'
+ as -v --64 -o CMakeFiles/cmTC_4c74b.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccLBeufp.s
 GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c0ea4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c0ea4.dir/CMakeCXXCompilerABI.cpp.'
-Linking CXX executable cmTC_c0ea4
-/snap/clion/206/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0ea4.dir/link.txt --verbose=1
-/usr/bin/c++  -v CMakeFiles/cmTC_c0ea4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c0ea4 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4c74b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4c74b.dir/CMakeCXXCompilerABI.cpp.'
+[2/2] Linking CXX executable cmTC_4c74b
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
@@ -74,10 +69,9 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 11.2.0 (Ubuntu 11.2.0-19ubuntu1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c0ea4' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c0ea4.'
- /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdL1gHF.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c0ea4 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_c0ea4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c0ea4' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c0ea4.'
-gmake[1]: Leaving directory '/home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4c74b' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4c74b.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cciSCCzh.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4c74b /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_4c74b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4c74b' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4c74b.'
 
 
 
@@ -104,12 +98,9 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/epicmo/桌面/Project/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c0ea4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c0ea4.dir/build.make CMakeFiles/cmTC_c0ea4.dir/build]
-  ignore line: [gmake[1]: Entering directory '/home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_c0ea4.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_c0ea4.dir/CMakeCXXCompilerABI.cpp.o -c /snap/clion/206/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):/snap/clion/209/bin/ninja/linux/ninja cmTC_4c74b && [1/2] Building CXX object CMakeFiles/cmTC_4c74b.dir/CMakeCXXCompilerABI.cpp.o]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -119,8 +110,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 11.2.0 (Ubuntu 11.2.0-19ubuntu1) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c0ea4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c0ea4.dir/']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/clion/206/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c0ea4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccz5u5bK.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4c74b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4c74b.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/clion/209/bin/cmake/linux/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_4c74b.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccLBeufp.s]
   ignore line: [GNU C++17 (Ubuntu 11.2.0-19ubuntu1) version 11.2.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
   ignore line: []
@@ -144,15 +135,13 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 619370d92bf6efc3023abfa7394da0c1]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c0ea4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c0ea4.dir/']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_c0ea4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccz5u5bK.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4c74b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4c74b.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_4c74b.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccLBeufp.s]
   ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c0ea4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c0ea4.dir/CMakeCXXCompilerABI.cpp.']
-  ignore line: [Linking CXX executable cmTC_c0ea4]
-  ignore line: [/snap/clion/206/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0ea4.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_c0ea4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c0ea4 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4c74b.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_4c74b.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [[2/2] Linking CXX executable cmTC_4c74b]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
@@ -165,13 +154,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 11.2.0 (Ubuntu 11.2.0-19ubuntu1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c0ea4' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c0ea4.']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdL1gHF.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c0ea4 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_c0ea4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4c74b' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4c74b.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cciSCCzh.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4c74b /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_4c74b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccdL1gHF.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cciSCCzh.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -189,7 +178,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_c0ea4] ==> ignore
+    arg [cmTC_4c74b] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
@@ -201,7 +190,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
-    arg [CMakeFiles/cmTC_c0ea4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_4c74b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -229,58 +218,34 @@ Parsed CXX implicit link information from above output:
 
 
 Determining if the include file any exists passed with the following output:
-Change Dir: /home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/epicmo/桌面/Project/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fcf6e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fcf6e.dir/build.make CMakeFiles/cmTC_fcf6e.dir/build
-gmake[1]: 进入目录“/home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_fcf6e.dir/CheckIncludeFile.cxx.o
-/usr/bin/c++    -o CMakeFiles/cmTC_fcf6e.dir/CheckIncludeFile.cxx.o -c /home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-Linking CXX executable cmTC_fcf6e
-/snap/clion/206/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcf6e.dir/link.txt --verbose=1
-/usr/bin/c++ CMakeFiles/cmTC_fcf6e.dir/CheckIncludeFile.cxx.o -o cmTC_fcf6e 
-gmake[1]: 离开目录“/home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp”
+Run Build Command(s):/snap/clion/209/bin/ninja/linux/ninja cmTC_8f378 && [1/2] Building CXX object CMakeFiles/cmTC_8f378.dir/CheckIncludeFile.cxx.o
+[2/2] Linking CXX executable cmTC_8f378
 
 
 
 Determining if the include file string_view exists passed with the following output:
-Change Dir: /home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/epicmo/桌面/Project/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_214de/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_214de.dir/build.make CMakeFiles/cmTC_214de.dir/build
-gmake[1]: 进入目录“/home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_214de.dir/CheckIncludeFile.cxx.o
-/usr/bin/c++    -o CMakeFiles/cmTC_214de.dir/CheckIncludeFile.cxx.o -c /home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-Linking CXX executable cmTC_214de
-/snap/clion/206/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_214de.dir/link.txt --verbose=1
-/usr/bin/c++ CMakeFiles/cmTC_214de.dir/CheckIncludeFile.cxx.o -o cmTC_214de 
-gmake[1]: 离开目录“/home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp”
+Run Build Command(s):/snap/clion/209/bin/ninja/linux/ninja cmTC_a2e76 && [1/2] Building CXX object CMakeFiles/cmTC_a2e76.dir/CheckIncludeFile.cxx.o
+[2/2] Linking CXX executable cmTC_a2e76
 
 
 
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/epicmo/桌面/Project/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7ad35/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7ad35.dir/build.make CMakeFiles/cmTC_7ad35.dir/build
-gmake[1]: 进入目录“/home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_7ad35.dir/CheckIncludeFile.cxx.o
-/usr/bin/c++    -o CMakeFiles/cmTC_7ad35.dir/CheckIncludeFile.cxx.o -c /home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-Linking CXX executable cmTC_7ad35
-/snap/clion/206/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ad35.dir/link.txt --verbose=1
-/usr/bin/c++ CMakeFiles/cmTC_7ad35.dir/CheckIncludeFile.cxx.o -o cmTC_7ad35 
-gmake[1]: 离开目录“/home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp”
+Run Build Command(s):/snap/clion/209/bin/ninja/linux/ninja cmTC_48b0a && [1/2] Building CXX object CMakeFiles/cmTC_48b0a.dir/CheckIncludeFile.cxx.o
+[2/2] Linking CXX executable cmTC_48b0a
 
 
 
 Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
-Change Dir: /home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/epicmo/桌面/Project/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a7bf3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a7bf3.dir/build.make CMakeFiles/cmTC_a7bf3.dir/build
-gmake[1]: 进入目录“/home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_a7bf3.dir/src.cxx.o
-/usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_a7bf3.dir/src.cxx.o -c /home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_a7bf3
-/snap/clion/206/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7bf3.dir/link.txt --verbose=1
-/usr/bin/c++ CMakeFiles/cmTC_a7bf3.dir/src.cxx.o -o cmTC_a7bf3 
-gmake[1]: 离开目录“/home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp”
+Run Build Command(s):/snap/clion/209/bin/ninja/linux/ninja cmTC_b117f && [1/2] Building CXX object CMakeFiles/cmTC_b117f.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_b117f
 
 
 Source file was:
@@ -305,34 +270,22 @@ int main(void)
 }
 
 Determining if the include file filesystem exists passed with the following output:
-Change Dir: /home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/epicmo/桌面/Project/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_17e36/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_17e36.dir/build.make CMakeFiles/cmTC_17e36.dir/build
-gmake[1]: 进入目录“/home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_17e36.dir/CheckIncludeFile.cxx.o
-/usr/bin/c++    -o CMakeFiles/cmTC_17e36.dir/CheckIncludeFile.cxx.o -c /home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-Linking CXX executable cmTC_17e36
-/snap/clion/206/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17e36.dir/link.txt --verbose=1
-/usr/bin/c++ CMakeFiles/cmTC_17e36.dir/CheckIncludeFile.cxx.o -o cmTC_17e36 
-gmake[1]: 离开目录“/home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp”
+Run Build Command(s):/snap/clion/209/bin/ninja/linux/ninja cmTC_ef160 && [1/2] Building CXX object CMakeFiles/cmTC_ef160.dir/CheckIncludeFile.cxx.o
+[2/2] Linking CXX executable cmTC_ef160
 
 
 
 Performing C++ SOURCE FILE Test CXX_FILESYSTEM_NO_LINK_NEEDED succeeded with the following compile output:
-Change Dir: /home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/epicmo/桌面/Project/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f9470/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f9470.dir/build.make CMakeFiles/cmTC_f9470.dir/build
-gmake[1]: 进入目录“/home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_f9470.dir/src.cxx.o
-/usr/bin/c++ -DCXX_FILESYSTEM_NO_LINK_NEEDED  -std=c++17 -o CMakeFiles/cmTC_f9470.dir/src.cxx.o -c /home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_f9470
-/snap/clion/206/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9470.dir/link.txt --verbose=1
-/usr/bin/c++ CMakeFiles/cmTC_f9470.dir/src.cxx.o -o cmTC_f9470 
-gmake[1]: 离开目录“/home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp”
+Run Build Command(s):/snap/clion/209/bin/ninja/linux/ninja cmTC_15451 && [1/2] Building CXX object CMakeFiles/cmTC_15451.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_15451
 
 
 ...and run output:
-/home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug
+/home/epicmo/桌面/Project/YggdrasilServer/cmake-build-debug
 Return value: 1
 Source file was:
         #include <cstdio>

@@ -1,17 +1,14 @@
 Determining if the include file coroutine exists failed with the following output:
-Change Dir: /home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/epicmo/桌面/Project/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6e762/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6e762.dir/build.make CMakeFiles/cmTC_6e762.dir/build
-gmake[1]: 进入目录“/home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp”
-Building CXX object CMakeFiles/cmTC_6e762.dir/CheckIncludeFile.cxx.o
-/usr/bin/c++    -o CMakeFiles/cmTC_6e762.dir/CheckIncludeFile.cxx.o -c /home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-In file included from /home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+Run Build Command(s):/snap/clion/209/bin/ninja/linux/ninja cmTC_5c7c0 && [1/2] Building CXX object CMakeFiles/cmTC_5c7c0.dir/CheckIncludeFile.cxx.o
+FAILED: CMakeFiles/cmTC_5c7c0.dir/CheckIncludeFile.cxx.o 
+/usr/bin/c++    -o CMakeFiles/cmTC_5c7c0.dir/CheckIncludeFile.cxx.o -c '/home/epicmo/桌面/Project/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx'
+In file included from /home/epicmo/桌面/Project/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
 /usr/include/c++/11/coroutine:334:2: error: #error "the coroutine header requires -fcoroutines"
   334 | #error "the coroutine header requires -fcoroutines"
       |  ^~~~~
-gmake[1]: *** [CMakeFiles/cmTC_6e762.dir/build.make:78：CMakeFiles/cmTC_6e762.dir/CheckIncludeFile.cxx.o] 错误 1
-gmake[1]: 离开目录“/home/epicmo/桌面/Yggdrasil/YggdrasilServer/cmake-build-debug/CMakeFiles/CMakeTmp”
-gmake: *** [Makefile:127：cmTC_6e762/fast] 错误 2
+ninja: build stopped: subcommand failed.
 
 
 

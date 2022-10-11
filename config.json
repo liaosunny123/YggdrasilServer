@@ -17,7 +17,7 @@
             //address: Ip address,0.0.0.0 by default
             "address": "0.0.0.0",
             //port: Port number
-            "port": 80,
+            "port": 30001,
             //https: If true, use https for security,false by default
             "https": false
         },
@@ -244,7 +244,6 @@
                     "post"
                 ],
                 "filters": [
-                    "FilterClassName"
                 ]
             }
         ],

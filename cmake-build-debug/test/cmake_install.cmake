@@ -1,4 +1,4 @@
-# Install script for directory: /home/epicmo/桌面/Yggdrasil/YggdrasilServer/test
+# Install script for directory: /home/epicmo/桌面/Project/YggdrasilServer/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
