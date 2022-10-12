@@ -8,7 +8,7 @@ void authserver::authenticate(authservermodel::authenticate &&pAuthenticate,
                               std::function<void(const HttpResponsePtr &)> &&callback) const{
     LOG_INFO << "Authserver authenticating:";
     Json::Value json;
-    json["code"] = 0;
+    json["acessToken"] = 1;
     auto resp = HttpResponse::newHttpJsonResponse(json);
     callback(resp);
 }

@@ -8,6 +8,7 @@
 
 #include <drogon/HttpController.h>
 #include "../mcmodel/authservermodel.h"
+#include "../mcmodel/modelimplement.h"
 using namespace drogon;
 
 class authserver : public drogon::HttpController<authserver>
