@@ -6,7 +6,10 @@
 #define YGGDRASILSERVER_SAFEUTILITY_H
 #include <iostream>
 //本类用于进行安全验证
-class SafeUtility{
-    bool TextureVerify();
-};
+namespace Yggdrasil{
+    class SafeUtility{
+        bool TextureVerify();
+    };
+}
+
 #endif //YGGDRASILSERVER_SAFEUTILITY_H

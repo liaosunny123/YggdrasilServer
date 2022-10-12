@@ -5,7 +5,8 @@
 #ifndef YGGDRASILSERVER_USER_H
 #define YGGDRASILSERVER_USER_H
 #include <iostream>
-class User{
+namespace Yggdrasil{
+    class User{
     public:
         //用户基本信息
         std::string ID;
@@ -15,5 +16,6 @@ class User{
         std::string Properties;
         //用户信息的序列化后储存的信息
         std::string UserInfor;
-};
+    };
+}
 #endif //YGGDRASILSERVER_USER_H

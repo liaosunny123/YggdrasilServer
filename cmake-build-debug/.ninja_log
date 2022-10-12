@@ -1,8 +1,20 @@
 # ninja log v5
+1	154	1665553002441461255	CMakeFiles/YggdrasilServer.dir/app/Token.cpp.o	ffe5784be0235c39
 1	1067	1665494232484668040	CMakeFiles/YggdrasilServer.dir/main.cc.o	f973c42394e3b986
-1610	3276	1665536923480734977	YggdrasilServer	4baefd422046f893
-0	1610	1665536921813335960	CMakeFiles/YggdrasilServer.dir/controllers/authserver.cc.o	7055e05ac51a7bec
+1	473	1665552405833347472	CMakeFiles/YggdrasilServer.dir/app/Utility.cpp.o	4d8f82c8cee96989
+1	998	1665552299594264127	CMakeFiles/YggdrasilServer.dir/controllers/Authserver.cc.o	aacdeb8a42535e5c
+154	1187	1665553003469465801	YggdrasilServer	5be6f2bcfde73b92
 1	260	1665543192775163900	CMakeFiles/YggdrasilServer.dir/app/token.cpp.o	3551f508f32a66e2
-1	662	1665543193175244707	CMakeFiles/YggdrasilServer.dir/app/Utility.cpp.o	4d8f82c8cee96989
 1	1550	1665543194063424032	CMakeFiles/YggdrasilServer.dir/controllers/authserver.cc.o	7055e05ac51a7bec
-1550	3072	1665543195583730735	YggdrasilServer	397fc91ca404e262
+1	256	1665570352592620979	CMakeFiles/YggdrasilServer.dir/app/User.cpp.o	dd2b612208033d15
+1	1603	1665570353940494721	CMakeFiles/YggdrasilServer.dir/controllers/Authserver.cc.o	aacdeb8a42535e5c
+1603	3178	1665570355512340043	YggdrasilServer	9df5de01a83e797b
+1	1555	1665570927596879135	CMakeFiles/YggdrasilServer.dir/controllers/Authserver.cc.o	aacdeb8a42535e5c
+1555	3054	1665570929092452546	YggdrasilServer	9df5de01a83e797b
+1	1560	1665570947843104149	CMakeFiles/YggdrasilServer.dir/controllers/Authserver.cc.o	aacdeb8a42535e5c
+1560	3084	1665570949362670707	YggdrasilServer	9df5de01a83e797b
+1	1549	1665571834170274304	CMakeFiles/YggdrasilServer.dir/controllers/Authserver.cc.o	aacdeb8a42535e5c
+1	1528	1665571859175141490	CMakeFiles/YggdrasilServer.dir/controllers/Authserver.cc.o	aacdeb8a42535e5c
+1	1271	1665571915479080409	CMakeFiles/YggdrasilServer.dir/app/User.cpp.o	dd2b612208033d15
+1	1590	1665571915794990293	CMakeFiles/YggdrasilServer.dir/controllers/Authserver.cc.o	aacdeb8a42535e5c
+1590	3069	1665571917270569374	YggdrasilServer	9df5de01a83e797b
