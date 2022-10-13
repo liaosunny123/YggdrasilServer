@@ -16,6 +16,7 @@ namespace Yggdrasil{
         std::string BindingPlayer;
         time_t generateTime;
         Token();
+        Token(std::string);
         void generateAccessToken();
         void generateClientToken();
     };

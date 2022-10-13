@@ -19,7 +19,7 @@ endif ()
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-add_executable(${PROJECT_NAME} main.cc user/Player.h user/User.h utility/UserUtility.h utility/PlayerUtility.h utility/Utility.h mcmodel/Model.h user/Texture.h utility/SafeUtility.h user/Token.h controllers/Authserver.h controllers/Authserver.cc mcmodel/Authservermodel.h mcmodel/Modelimplement.h mcmodel/Token.h app/Token.cpp app/Utility.cpp libs/sole/Sole.hpp app/User.cpp mcmodel/UserImplement.h)
+add_executable(${PROJECT_NAME} main.cc user/Player.h user/User.h utility/UserUtility.h utility/PlayerUtility.h utility/Utility.h mcmodel/Model.h user/Texture.h utility/SafeUtility.h user/Token.h controllers/Authserver.h controllers/Authserver.cc mcmodel/Authservermodel.h mcmodel/Modelimplement.h mcmodel/Token.h app/Token.cpp app/Utility.cpp libs/sole/Sole.hpp app/User.cpp mcmodel/UserImplement.h mcmodel/TokenDictionary.h app/TokenDicionary.cpp)
 
 
 find_package(Drogon CONFIG REQUIRED)

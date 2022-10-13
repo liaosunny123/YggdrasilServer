@@ -22,37 +22,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ba9bfbe-78f0-4760-903f-234f34560da8" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Token.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/User.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mcmodel/UserImplement.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/TokenDicionary.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mcmodel/TokenDictionary.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Token.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/Token.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Utility.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/Utility.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/token.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-69116401faa6820885f7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-10-12T02-50-35-0005.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-YggdrasilServer-Debug-5135b47349dfef642ff4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-de92791debbc2b3470ab.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-10-12T10-18-50-0997.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-YggdrasilServer-Debug-f8cc35f2ad09bacf10f1.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/YggdrasilServer.dir/app/Token.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/YggdrasilServer.dir/app/Token.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/YggdrasilServer.dir/app/User.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/YggdrasilServer.dir/app/User.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/YggdrasilServer.dir/app/Utility.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/YggdrasilServer.dir/app/Utility.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/YggdrasilServer.dir/controllers/Authserver.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/YggdrasilServer.dir/controllers/Authserver.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/YggdrasilServer.dir/main.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/YggdrasilServer.dir/main.cc.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/YggdrasilServer" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/YggdrasilServer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/YggdrasilServer" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/authserver.cc" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Authserver.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/authserver.h" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Authserver.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/sole/sole.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/libs/sole/Sole.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmodel/Model.h" beforeDir="false" afterPath="$PROJECT_DIR$/mcmodel/Model.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmodel/authservermodel.h" beforeDir="false" afterPath="$PROJECT_DIR$/mcmodel/Authservermodel.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmodel/modelimplement.h" beforeDir="false" afterPath="$PROJECT_DIR$/mcmodel/Modelimplement.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmodel/token.h" beforeDir="false" afterPath="$PROJECT_DIR$/mcmodel/Token.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/Player.h" beforeDir="false" afterPath="$PROJECT_DIR$/user/Player.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/Texture.h" beforeDir="false" afterPath="$PROJECT_DIR$/user/Texture.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/Token.h" beforeDir="false" afterPath="$PROJECT_DIR$/user/Token.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/User.h" beforeDir="false" afterPath="$PROJECT_DIR$/user/User.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utility/PlayerUtility.h" beforeDir="false" afterPath="$PROJECT_DIR$/utility/PlayerUtility.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utility/SafeUtility.h" beforeDir="false" afterPath="$PROJECT_DIR$/utility/SafeUtility.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utility/UserUtility.h" beforeDir="false" afterPath="$PROJECT_DIR$/utility/UserUtility.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utility/Utility.h" beforeDir="false" afterPath="$PROJECT_DIR$/utility/Utility.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/Authserver.cc" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/Authserver.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/main.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmodel/Token.h" beforeDir="false" afterPath="$PROJECT_DIR$/mcmodel/Token.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmodel/UserImplement.h" beforeDir="false" afterPath="$PROJECT_DIR$/mcmodel/UserImplement.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +128,9 @@
       <workItem from="1665548533695" duration="691000" />
       <workItem from="1665551464013" duration="1581000" />
       <workItem from="1665560619476" duration="346000" />
-      <workItem from="1665569828197" duration="2261000" />
+      <workItem from="1665569828197" duration="6937000" />
+      <workItem from="1665657372108" duration="62000" />
+      <workItem from="1665658084117" duration="5408000" />
     </task>
     <servers />
   </component>

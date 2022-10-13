@@ -14,8 +14,11 @@ namespace Yggdrasil{
         User user;
     public:
         UserControl(std::string,std::string);
+        int GetUsablePlayerNumber();
+        std::string GetUserInfor();
+        std::string GetUserProperties();
         bool Login();
-        Json::Value fetchUsablePlayer();//返回可用角色列表
+        Json::Value FetchUsablePlayer();//返回可用角色列表
 
     };
 }

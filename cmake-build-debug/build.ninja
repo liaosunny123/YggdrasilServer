@@ -84,6 +84,13 @@ build CMakeFiles/YggdrasilServer.dir/app/User.cpp.o: CXX_COMPILER__YggdrasilServ
   OBJECT_DIR = CMakeFiles/YggdrasilServer.dir
   OBJECT_FILE_DIR = CMakeFiles/YggdrasilServer.dir/app
 
+build CMakeFiles/YggdrasilServer.dir/app/TokenDicionary.cpp.o: CXX_COMPILER__YggdrasilServer_Debug /home/epicmo/桌面/Project/YggdrasilServer/app/TokenDicionary.cpp || cmake_object_order_depends_target_YggdrasilServer
+  DEP_FILE = CMakeFiles/YggdrasilServer.dir/app/TokenDicionary.cpp.o.d
+  FLAGS = -g -std=c++17
+  INCLUDES = -I/home/epicmo/桌面/Project/YggdrasilServer -I/home/epicmo/桌面/Project/YggdrasilServer/models -isystem /usr/include/jsoncpp
+  OBJECT_DIR = CMakeFiles/YggdrasilServer.dir
+  OBJECT_FILE_DIR = CMakeFiles/YggdrasilServer.dir/app
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target YggdrasilServer
@@ -92,7 +99,7 @@ build CMakeFiles/YggdrasilServer.dir/app/User.cpp.o: CXX_COMPILER__YggdrasilServ
 #############################################
 # Link the executable YggdrasilServer
 
-build YggdrasilServer: CXX_EXECUTABLE_LINKER__YggdrasilServer_Debug CMakeFiles/YggdrasilServer.dir/main.cc.o CMakeFiles/YggdrasilServer.dir/controllers/Authserver.cc.o CMakeFiles/YggdrasilServer.dir/app/Token.cpp.o CMakeFiles/YggdrasilServer.dir/app/Utility.cpp.o CMakeFiles/YggdrasilServer.dir/app/User.cpp.o | /usr/local/lib/libdrogon.a /usr/local/lib/libtrantor.a /usr/lib/x86_64-linux-gnu/libjsoncpp.so /usr/lib/x86_64-linux-gnu/libuuid.so /usr/lib/x86_64-linux-gnu/libmariadbclient.so /usr/lib/x86_64-linux-gnu/libsqlite3.so /usr/lib/x86_64-linux-gnu/libhiredis.so /usr/lib/x86_64-linux-gnu/libz.so /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so
+build YggdrasilServer: CXX_EXECUTABLE_LINKER__YggdrasilServer_Debug CMakeFiles/YggdrasilServer.dir/main.cc.o CMakeFiles/YggdrasilServer.dir/controllers/Authserver.cc.o CMakeFiles/YggdrasilServer.dir/app/Token.cpp.o CMakeFiles/YggdrasilServer.dir/app/Utility.cpp.o CMakeFiles/YggdrasilServer.dir/app/User.cpp.o CMakeFiles/YggdrasilServer.dir/app/TokenDicionary.cpp.o | /usr/local/lib/libdrogon.a /usr/local/lib/libtrantor.a /usr/lib/x86_64-linux-gnu/libjsoncpp.so /usr/lib/x86_64-linux-gnu/libuuid.so /usr/lib/x86_64-linux-gnu/libmariadbclient.so /usr/lib/x86_64-linux-gnu/libsqlite3.so /usr/lib/x86_64-linux-gnu/libhiredis.so /usr/lib/x86_64-linux-gnu/libz.so /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so
   FLAGS = -g
   LINK_LIBRARIES = /usr/local/lib/libdrogon.a  /usr/local/lib/libtrantor.a  -lpthread  -ldl  /usr/lib/x86_64-linux-gnu/libjsoncpp.so  /usr/lib/x86_64-linux-gnu/libuuid.so  /usr/lib/x86_64-linux-gnu/libmariadbclient.so  /usr/lib/x86_64-linux-gnu/libsqlite3.so  /usr/lib/x86_64-linux-gnu/libhiredis.so  /usr/lib/x86_64-linux-gnu/libz.so  /usr/lib/x86_64-linux-gnu/libssl.so  /usr/lib/x86_64-linux-gnu/libcrypto.so
   OBJECT_DIR = CMakeFiles/YggdrasilServer.dir

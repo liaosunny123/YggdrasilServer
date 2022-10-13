@@ -2,9 +2,12 @@
 // Created by epicmo on 22-10-12.
 //
 #include <iostream>
-#include<algorithm>
+#include <algorithm>
+#include <boost/uuid/uuid.hpp>
+#include <boost/uuid/uuid_generators.hpp>
+#include <boost/uuid/uuid_io.hpp>
 #include "../utility/Utility.h"
-#include "../libs/sole/Sole.hpp"
+
 //解密BASE64加密，返回序列化的信息
 namespace Yggdrasil{
     std::string Utility::ConvertBase64To(const std::string sourceData,int options){
@@ -106,21 +109,21 @@ namespace Yggdrasil{
     }
 //UUID生成方式：
     std::string Utility::CreateUUID(){
-        sole::uuid u0 = sole::uuid0();
-        std::string stru0 = u0.str();
-        return stru0;
+        boost::uuids::uuid uid = boost::uuids::random_generator()();
+        const std::string uid_str = boost::uuids::to_string(uid);
+        return uid_str;
     }//随机生成
 
 
     std::string Utility::CreateUUID(std::string){
-        sole::uuid u0 = sole::uuid0();
-        std::string stru0 = u0.str();
-        return stru0;
+        boost::uuids::uuid uid = boost::uuids::random_generator()();
+        const std::string uid_str = boost::uuids::to_string(uid);
+        return uid_str;
     }//根据角色名称生成以兼容原版角色的生成模式
 
     std::string Utility::CreateUnsignedUUID(){
-        sole::uuid u0 = sole::uuid0();
-        std::string stru0 = u0.str();
+        boost::uuids::uuid uid = boost::uuids::random_generator()();
+        std::string stru0 = boost::uuids::to_string(uid);
         stru0.erase(std::remove(stru0.begin(), stru0.end(), '-'), stru0.end());
         return stru0;
     }
