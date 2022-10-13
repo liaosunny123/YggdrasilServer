@@ -8,7 +8,7 @@ This project is a cpp version implement.
 This project is developed on Ubuntu 22.04.  
 Please verify your libs:g++,gcc,cmake,libjsoncpp-dev,uuid-dev,openssl,libssl-dev,zlib1g-dev  
 This project supports Sqlite3,Redis,Mysql
-### Seconde---Build your drogon
+### Second---Build your drogon
 ```bash
 git clone https://github.com/drogonframework/drogon
 cd drogon
