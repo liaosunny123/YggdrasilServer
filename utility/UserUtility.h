@@ -6,7 +6,8 @@
 #define YGGDRASILSERVER_USERUTILITY_H
 //本类用于处理用户的基本信息的操作
 #include <iostream>
-#include "../user/User.h"
+#include "entitymodel/User.h"
+
 namespace Yggdrasil{
     class User_Utility{
     public:

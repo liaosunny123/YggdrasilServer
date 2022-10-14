@@ -17,6 +17,7 @@ namespace Yggdrasil{
         time_t generateTime;
         Token();
         Token(std::string);
+        Token(bool);
         void generateAccessToken();
         void generateClientToken();
     };

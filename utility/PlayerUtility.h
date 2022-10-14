@@ -6,8 +6,9 @@
 #define YGGDRASILSERVER_PLAYERUTILITY_H
 //本类用于处理玩家的基本信息的操作
 #include <iostream>
-#include "../user/Player.h"
 #include "../mcmodel/Model.h"
+#include "entitymodel/Player.h"
+
 namespace Yggdrasil{
     class Player_Utility{
     public:

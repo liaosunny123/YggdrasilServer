@@ -4,7 +4,7 @@
 #include <drogon/HttpController.h>
 #include "../mcmodel/Token.h"
 #include "../mcmodel/TokenDictionary.h"
-#include "utility/Utility.h"
+#include "../utility/Utility.h"
 namespace Yggdrasil{
     Token::Token() {
         this->generateAccessToken();
@@ -20,6 +20,14 @@ namespace Yggdrasil{
         }
         this->generateAccessToken();
         TokenDictionary::AddToken(*this);
+    }
+    Token::Token(bool isanonymous) {
+        if (isanonymous){
+            this->generateAccessToken();
+            this->generateClientToken();
+        }else{
+            LOG_WARN << "Unexpected Token generating way";
+        }
     }
     void Token::generateAccessToken(){
         this->accsessToken = Utility::CreateUnsignedUUID();

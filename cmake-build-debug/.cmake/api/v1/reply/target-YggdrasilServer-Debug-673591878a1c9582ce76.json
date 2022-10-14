@@ -269,7 +269,8 @@
 				15,
 				16,
 				18,
-				21
+				21,
+				23
 			]
 		}
 	],
@@ -367,7 +368,8 @@
 				15,
 				16,
 				18,
-				21
+				21,
+				23
 			]
 		},
 		{
@@ -389,7 +391,9 @@
 				14,
 				17,
 				19,
-				20
+				20,
+				22,
+				24
 			]
 		}
 	],
@@ -403,12 +407,12 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "user/Player.h",
+			"path" : "entitymodel/Player.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "user/User.h",
+			"path" : "entitymodel/User.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -433,7 +437,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "user/Texture.h",
+			"path" : "entitymodel/Texture.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -443,7 +447,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "user/Token.h",
+			"path" : "entitymodel/Token.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -510,6 +514,22 @@
 			"compileGroupIndex" : 0,
 			"path" : "app/TokenDicionary.cpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mcmodel/Error.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "app/Error.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mcmodel/TokenRemote.h",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"

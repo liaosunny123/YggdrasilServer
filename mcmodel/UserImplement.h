@@ -7,6 +7,8 @@
 #include <iostream>
 #include <drogon/HttpController.h>
 #include "../utility/UserUtility.h"
+#include "entitymodel/User.h"
+
 using namespace drogon;
 namespace Yggdrasil{
     class UserControl{

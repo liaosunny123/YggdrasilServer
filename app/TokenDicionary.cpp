@@ -14,7 +14,7 @@ namespace Yggdrasil{
             return iter->second;
         }else{
             //TODO Nullable Token
-            Token *temp = new Token();
+            Token *temp = new Token(true);//创建一个匿名指针，这个指针不会被记录到Token池里面
             return *temp;
         }
     }

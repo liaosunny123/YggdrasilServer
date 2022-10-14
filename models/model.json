@@ -11,7 +11,7 @@
     "dbname": "",
     //schema: valid for postgreSQL, "public" by default;
     "schema": "public",
-    //user: User name
+    //entitymodel: User name
     "user": "",
     //password or passwd: Password
     "password": "",
